@@ -1,0 +1,140 @@
+
+body {
+    --primary: #3292a6;
+}
+
+h2{
+    color: var(--primary);
+}
+
+.navbar{
+    box-shadow: 2px 2px 5px var(--primary) ; 
+    background: #fff;
+    
+    .nav-item{
+        font-size: 1.4rem;
+       }
+}
+
+// --------------------------------------
+
+#home{
+    background-image:url(../img/mountains.jpg) ;
+    min-height: 600px;
+    
+
+    .color-overlay{
+        background-color: rgba(50, 146, 156, .7);
+        min-height: 600px;
+    }
+
+   
+}
+
+// ------------------------------------------
+
+#subscribe-section{
+    background-color: #252525;
+
+    .form-control-lg{
+        border-radius: 0;
+    }
+
+    button{
+        border: 0;
+        color: #fff;
+        background: var(--primary);
+    }
+
+}
+
+// ------------------------------------------
+
+#box-section{
+    
+    .card{
+        border: 2px solid var(--primary);
+        
+    }
+
+    div.col-lg-3:nth-child(2) > div:nth-child(1),
+    div.col-lg-3:nth-child(4) > div:nth-child(1){
+        background: var(--primary);
+        color: #fff;
+    }
+
+}
+
+// ------------------------------------------
+
+
+#about-section{
+    h2{
+        color: var(--primary);
+    }
+
+}
+
+
+// ==================================================
+//  Author Section
+
+
+#author-section{
+
+    img{
+        margin-top: -50px;
+    }
+
+    .card:hover{
+        background: var(--primary);
+        color: #fff;
+    }
+
+   .fab{
+       font-size: 1.5rem;
+       color: var(--primary);
+   }
+
+   .fab:hover{
+       font-size: 2rem;
+       background: #fff;
+       border-radius: 25%;
+   }
+
+   .fa-facebook-f{
+       color: #3b5998 ;
+   }
+
+   .fa-twitter{
+       color: #00acee;
+   }
+
+   .fa-google-plus-g{
+       color: red;
+   }
+
+
+}
+
+// ----------------------------------
+
+#contact-section{
+    button{
+        background: var(--primary);
+        color: #fff;
+        border-radius: 0;
+    }
+}
+
+// ==================================
+
+@media(max-width: 576px){
+    #home{
+  
+      h1{
+        font-size: 4rem;
+      }
+    }
+
+  }
